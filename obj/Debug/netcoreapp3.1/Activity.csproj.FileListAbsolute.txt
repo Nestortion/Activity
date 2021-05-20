@@ -1,0 +1,13 @@
+C:\Users\geron\source\repos\Activity\bin\Debug\netcoreapp3.1\Activity.exe
+C:\Users\geron\source\repos\Activity\bin\Debug\netcoreapp3.1\Activity.deps.json
+C:\Users\geron\source\repos\Activity\bin\Debug\netcoreapp3.1\Activity.runtimeconfig.json
+C:\Users\geron\source\repos\Activity\bin\Debug\netcoreapp3.1\Activity.runtimeconfig.dev.json
+C:\Users\geron\source\repos\Activity\bin\Debug\netcoreapp3.1\Activity.dll
+C:\Users\geron\source\repos\Activity\bin\Debug\netcoreapp3.1\Activity.pdb
+C:\Users\geron\source\repos\Activity\obj\Debug\netcoreapp3.1\Activity.csprojAssemblyReference.cache
+C:\Users\geron\source\repos\Activity\obj\Debug\netcoreapp3.1\Activity.AssemblyInfoInputs.cache
+C:\Users\geron\source\repos\Activity\obj\Debug\netcoreapp3.1\Activity.AssemblyInfo.cs
+C:\Users\geron\source\repos\Activity\obj\Debug\netcoreapp3.1\Activity.csproj.CoreCompileInputs.cache
+C:\Users\geron\source\repos\Activity\obj\Debug\netcoreapp3.1\Activity.dll
+C:\Users\geron\source\repos\Activity\obj\Debug\netcoreapp3.1\Activity.pdb
+C:\Users\geron\source\repos\Activity\obj\Debug\netcoreapp3.1\Activity.genruntimeconfig.cache
