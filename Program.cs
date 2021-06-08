@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Activity;
+using System;
 using System.Collections.Generic;
 
 public class Program
@@ -35,68 +36,28 @@ public class Program
 		Console.WriteLine($"Here are the list of products and there conditions");
 		for (int i = 0; i < productList.Count; i++)
 		{
-			Console.WriteLine(productList[i].ID+1 + "   " + productList[i].Condition);
+			Console.WriteLine(productList[i].ID+1 + "   " + productList[i].Condition + "   " + productList[i].Type);
 		}
 	}
 	static void InstantiateProductList()
 	{
         
-        for (int i = 0; i < 10; i++)
+        for (int i = 0; i < 3; i++)
         {
 			productList.Add(new Product($"Product {i+1}"));
         }
-
-	}
-
-}
-
-class QualityChecker
-{
-	public static bool CheckQuality(Product p)
-	{
-		if (p.Condition == "Good")
+		for (int i = 0; i < 3; i++)
 		{
-			return true;
+			productList.Add(new ClothingProduct($"Product {i + 1}"));
 		}
-		else
+		for (int i = 0; i < 3; i++)
 		{
-			return false;
+			productList.Add(new PowderedProduct($"Product {i + 1}"));
 		}
 
-	}
-}
 
-class Product
-{
-	private Random rand = new Random();
-	private string _name;
-	private string _condition;
-	private int _id;
-	private static int idCounter = 0;
-
-	public string Name
-	{
-		get => _name;
-		set => _name = value; 
-	}
-	public string Condition
-	{
-		get => _condition; 
-		set => _condition = value; 
-	}
-	public int ID
-	{
-		get => _id; 
-		set => _id = value; 
-	}
-
-	public Product(string name)
-	{
-		int x = rand.Next(2);
-		ID = idCounter;
-		Name = name;
-		Condition = (x == 0) ? "Good" : "Not good";
-		idCounter++;
 	}
 
 }
+
+
